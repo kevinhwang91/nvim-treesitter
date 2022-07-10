@@ -16,4 +16,3 @@
   arguments: (arguments (string content: _ @query) .))
   (#eq? @_vimcmd_identifier "vim.treesitter.query.set_query"))
 
-(comment) @comment
