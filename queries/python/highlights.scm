@@ -10,8 +10,6 @@
 ;; Identifier naming conventions
 ((identifier) @type
  (#lua-match? @type "^[A-Z].*[a-z]"))
-((identifier) @constant
- (#lua-match? @constant "^[A-Z][A-Z_0-9]*$"))
 
 ((identifier) @constant.builtin
  (#lua-match? @constant.builtin "^__[a-zA-Z0-9_]*__$"))

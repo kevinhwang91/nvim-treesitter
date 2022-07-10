@@ -15,9 +15,6 @@
 ((identifier) @constant
  (#eq? @constant "_"))
 
-((identifier) @constant
- (#vim-match? @constant "^[A-Z][A-Z\\d_]+$"))
-
 (const_spec
   name: (identifier) @constant)
 
@@ -201,6 +198,7 @@
 
 (keyed_element
   . (literal_element (identifier) @field))
+(field_declaration name: (field_identifier) @field)
 
 (comment) @comment
 

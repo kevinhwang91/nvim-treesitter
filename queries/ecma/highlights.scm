@@ -20,15 +20,6 @@
 ; Special identifiers
 ;--------------------
 
-((identifier) @constructor
- (#lua-match? @constructor "^[A-Z]"))
-
-((identifier) @constant
- (#lua-match? @constant "^[A-Z_][A-Z%d_]+$"))
-
-((shorthand_property_identifier) @constant
- (#lua-match? @constant "^[A-Z_][A-Z%d_]+$"))
-
 ((identifier) @variable.builtin
  (#vim-match? @variable.builtin "^(arguments|module|console|window|document)$"))
 

@@ -140,8 +140,6 @@
 
 (sizeof_expression value: (parenthesized_expression (identifier) @type))
 
-((identifier) @constant
- (#lua-match? @constant "^[A-Z][A-Z0-9_]+$"))
 (enumerator
   name: (identifier) @constant)
 (case_statement
