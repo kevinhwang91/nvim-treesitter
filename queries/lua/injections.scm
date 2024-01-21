@@ -20,7 +20,7 @@
       (string
         content: _ @injection.content)))
   (#set! injection.language "vim")
-  (#any-of? @_vimcmd_identifier "vim.cmd" "vim.api.nvim_command" "vim.api.nvim_command" "vim.api.nvim_exec2"))
+  (#any-of? @_vimcmd_identifier "vim.cmd" "vim.api.nvim_command" "vim.api.nvim_exec2" "cmd" "api.nvim_command" "api.nvim_exec2"))
 
 ((function_call
   name: (_) @_vimcmd_identifier
@@ -96,96 +96,3 @@
   ; Limiting predicate handling to only functions with 4 arguments
   (#eq? @_user_cmd "vim.api.nvim_buf_create_user_command")
   (#set! injection.language "vim"))
-
-; rhs highlighting for vim.keymap.set/vim.api.nvim_set_keymap/vim.api.nvim_buf_set_keymap
-; (function_call
-;   name: (_) @_map
-;   arguments:
-;     (arguments
-;       . (_)
-;       . (_)
-;       .
-;       (string
-;         content: (_) @injection.content))
-;   (#any-of? @_map "vim.api.nvim_set_keymap" "vim.keymap.set")
-;   (#set! injection.language "vim"))
-;
-; (function_call
-;   name: (_) @_map
-;   arguments:
-;     (arguments
-;       . (_)
-;       . (_)
-;       . (_)
-;       .
-;       (string
-;         content: (_) @injection.content)
-;       . (_) .)
-;   (#eq? @_map "vim.api.nvim_buf_set_keymap")
-;   (#set! injection.language "vim"))
-; highlight string as query if starts with `;; query`
-(string
-  content: _ @injection.content
-  (#lua-match? @injection.content "^%s*;+%s?query")
-  (#set! injection.language "query"))
-
-(comment
-  content: (_) @injection.content
-  (#lua-match? @injection.content "^[-][%s]*@")
-  (#set! injection.language "luadoc")
-  (#offset! @injection.content 0 1 0 0))
-
-; string.match("123", "%d+")
-(function_call
-  (dot_index_expression
-    field: (identifier) @_method
-    (#any-of? @_method "find" "match" "gmatch" "gsub"))
-  arguments:
-    (arguments
-      .
-      (_)
-      .
-      (string
-        content: (string_content) @injection.content
-        (#set! injection.language "luap")
-        (#set! injection.include-children))))
-
-;("123"):match("%d+")
-(function_call
-  (method_index_expression
-    method: (identifier) @_method
-    (#any-of? @_method "find" "match" "gmatch" "gsub"))
-  arguments:
-    (arguments
-      .
-      (string
-        content: (string_content) @injection.content
-        (#set! injection.language "luap")
-        (#set! injection.include-children))))
-
-; string.format("pi = %.2f", 3.14159)
-((function_call
-  (dot_index_expression
-    field: (identifier) @_method)
-  arguments:
-    (arguments
-      .
-      (string
-        (string_content) @injection.content)))
-  (#eq? @_method "format")
-  (#set! injection.language "printf"))
-
-; ("pi = %.2f"):format(3.14159)
-((function_call
-  (method_index_expression
-    table:
-      (_
-        (string
-          (string_content) @injection.content))
-    method: (identifier) @_method))
-  (#eq? @_method "format")
-  (#set! injection.language "printf"))
-
-(comment
-  content: (_) @injection.content
-  (#set! injection.language "comment"))

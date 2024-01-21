@@ -1,8 +1,5 @@
 (identifier) @variable
 
-((identifier) @constant
-  (#lua-match? @constant "^[A-Z][A-Z_0-9]*$"))
-
 ; Keywords
 [
   "if"

@@ -148,9 +148,6 @@
   (identifier) @label)
 
 ; Constants
-((identifier) @constant
-  (#lua-match? @constant "^[A-Z][A-Z_0-9]*$"))
-
 (vararg_expression) @constant
 
 (nil) @constant.builtin

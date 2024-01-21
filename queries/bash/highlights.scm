@@ -204,9 +204,6 @@
 
 (variable_name) @variable
 
-((variable_name) @constant
-  (#lua-match? @constant "^[A-Z][A-Z_0-9]*$"))
-
 (case_item
   value: (word) @variable.parameter)
 

@@ -184,13 +184,6 @@
   _ @type.builtin
   type: _?)
 
-((identifier) @constant
-  (#lua-match? @constant "^[A-Z][A-Z0-9_]+$"))
-
-(preproc_def
-  (preproc_arg) @constant
-  (#lua-match? @constant "^[A-Z][A-Z0-9_]+$"))
-
 (enumerator
   name: (identifier) @constant)
 

@@ -12,17 +12,20 @@
 (identifier) @variable
 
 (package_identifier) @module
-
-(parameter_declaration
-  (identifier) @variable.parameter)
+(function_declaration
+  parameters: (parameter_list
+                (parameter_declaration
+                  (identifier) @variable.parameter)))
+(method_declaration
+  parameters: (parameter_list
+                (parameter_declaration
+                  (identifier) @variable.parameter)))
 
 (variadic_parameter_declaration
   (identifier) @variable.parameter)
 
-(label_name) @label
 
-(const_spec
-  name: (identifier) @constant)
+(label_name) @label
 
 ; Function calls
 (call_expression
@@ -42,15 +45,6 @@
 
 (method_spec
   name: (field_identifier) @function.method)
-
-; Constructors
-((call_expression
-  (identifier) @constructor)
-  (#lua-match? @constructor "^[nN]ew.+$"))
-
-((call_expression
-  (identifier) @constructor)
-  (#lua-match? @constructor "^[mM]ake.+$"))
 
 ; Operators
 [
