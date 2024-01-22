@@ -275,11 +275,11 @@
   "}"
 ] @punctuation.bracket
 
-((template_substitution
+(template_substitution
   [
     "${"
     "}"
-  ] @punctuation.special) @none)
+  ] @punctuation.special) @none
 
 ; Keywords
 ;----------
