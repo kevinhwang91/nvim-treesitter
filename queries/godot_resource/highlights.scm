@@ -1,7 +1,16 @@
-(identifier) @type.builtin
+(identifier) @variable
+
+(section
+  (identifier) @tag)
+
+(section
+  [
+    "["
+    "]"
+  ] @tag.delimiter)
 
 (attribute
-  (identifier) @property)
+  (identifier) @tag.attribute)
 
 (property
   (path) @property)
@@ -15,14 +24,18 @@
 
 (float) @number.float
 
-(true) @constant.builtin
-
-(false) @constant.builtin
-
 [
-  "["
-  "]"
-] @tag.delimiter
+  (true)
+  (false)
+] @boolean
+
+(null) @constant.builtin
+
+(array
+  [
+    "["
+    "]"
+  ] @punctuation.bracket)
 
 [
   "("
@@ -32,3 +45,5 @@
 ] @punctuation.bracket
 
 "=" @operator
+
+(comment) @comment @spell

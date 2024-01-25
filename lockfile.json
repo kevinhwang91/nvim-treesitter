@@ -102,13 +102,16 @@
     "revision": "f71e310a93010863f4b17a2a501ea8e2032c345b"
   },
   "devicetree": {
-    "revision": "53b4137bd37e726116ea918139767f982a1584d8"
+    "revision": "6b53bfdb20a54727bfe344aa40907351a298f75c"
   },
   "dhall": {
     "revision": "affb6ee38d629c9296749767ab832d69bb0d9ea8"
   },
   "diff": {
     "revision": "c165725c28e69b36c5799ff0e458713a844f1aaf"
+  },
+  "disassembly": {
+    "revision": "e48ebe20581145b381204cf21adf305e29329b5d"
   },
   "dockerfile": {
     "revision": "33e22c33bcdbfc33d42806ee84cfd0b1248cc392"
@@ -351,13 +354,13 @@
     "revision": "9668709211b2e683f27f414454a8b51bf0a6bda1"
   },
   "luadoc": {
-    "revision": "6ebdac83b4789069c4939713efae7176cc3126de"
+    "revision": "d82b43018a6b22d70b264ed8713be1c4daf9b0e0"
   },
   "luap": {
     "revision": "31461ae9bd0866cb5117cfe5de71189854fd0f3e"
   },
   "luau": {
-    "revision": "6953cd4fa5967c9aa3c769b4e4c7e69c904b9fa9"
+    "revision": "eaabb02c827e61f51a7dd13b8aba92924fc6dba0"
   },
   "m68k": {
     "revision": "d097b123f19c6eaba2bf181c05420d88b9fc489d"
