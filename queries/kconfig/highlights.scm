@@ -41,6 +41,9 @@
   "<="
   ">="
   "!"
+  ":="
+  "+="
+  "?="
 ] @operator
 
 [
@@ -55,6 +58,8 @@
   "("
   ")"
 ] @punctuation.bracket
+
+"," @punctuation.delimiter
 
 (macro_variable
   [

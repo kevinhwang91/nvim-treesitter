@@ -62,4 +62,8 @@
     (identifier) @tag.builtin
     (property_identifier) @tag))
 
-(jsx_text) @none
+(html_character_reference) @tag
+
+(jsx_text) @none @spell
+
+(html_character_reference) @character.special

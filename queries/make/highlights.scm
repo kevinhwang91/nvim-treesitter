@@ -31,6 +31,7 @@
     "&:"
     ":"
     "::"
+    "|"
   ] @operator)
 
 (export_directive
@@ -73,8 +74,7 @@
     ; ":::="
     "?="
     "!="
-  ]?
-     @operator
+  ]? @operator
   "endef" @keyword)
 
 (variable_assignment
