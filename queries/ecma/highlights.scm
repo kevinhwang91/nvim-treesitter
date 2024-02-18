@@ -198,23 +198,12 @@
 
 ; Punctuation
 ;------------
-";" @punctuation.delimiter
-
-"." @punctuation.delimiter
-
-"," @punctuation.delimiter
-
-(pair
-  ":" @punctuation.delimiter)
-
-(pair_pattern
-  ":" @punctuation.delimiter)
-
-(switch_case
-  ":" @punctuation.delimiter)
-
-(switch_default
-  ":" @punctuation.delimiter)
+[
+  ";"
+  "."
+  ","
+  ":"
+] @punctuation.delimiter
 
 [
   "--"
