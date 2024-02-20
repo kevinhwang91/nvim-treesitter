@@ -161,7 +161,7 @@ list.bash = {
 
 list.bass = {
   install_info = {
-    url = "https://github.com/amaanq/tree-sitter-bass",
+    url = "https://github.com/vito/tree-sitter-bass",
     files = { "src/parser.c" },
   },
   maintainers = { "@amaanq" },
@@ -1893,10 +1893,10 @@ list.surface = {
 
 list.svelte = {
   install_info = {
-    url = "https://github.com/Himujjal/tree-sitter-svelte",
+    url = "https://github.com/tree-sitter-grammars/tree-sitter-svelte",
     files = { "src/parser.c", "src/scanner.c" },
   },
-  maintainers = { "@elianiva" },
+  maintainers = { "@amaanq" },
 }
 
 list.swift = {
@@ -1997,6 +1997,14 @@ list.tlaplus = {
   },
   filetype = "tla",
   maintainers = { "@ahelwer", "@susliko" },
+}
+
+list.tmux = {
+  install_info = {
+    url = "https://github.com/Freed-Wu/tree-sitter-tmux",
+    files = { "src/parser.c" },
+  },
+  maintainers = { "@Freed-Wu" },
 }
 
 list.todotxt = {
