@@ -535,6 +535,14 @@ list.fennel = {
   maintainers = { "@alexmozaidze" },
 }
 
+list.fidl = {
+  install_info = {
+    url = "https://github.com/google/tree-sitter-fidl",
+    files = { "src/parser.c" },
+  },
+  maintainers = { "@chaopeng" },
+}
+
 list.firrtl = {
   install_info = {
     url = "https://github.com/amaanq/tree-sitter-firrtl",
@@ -1230,7 +1238,7 @@ list.nasm = {
 list.nickel = {
   install_info = {
     url = "https://github.com/nickel-lang/tree-sitter-nickel",
-    files = { "src/parser.c", "src/scanner.cc" },
+    files = { "src/parser.c", "src/scanner.c" },
   },
 }
 
@@ -1476,8 +1484,8 @@ list.promql = {
 
 list.properties = {
   install_info = {
-    url = "https://github.com/ObserverOfTime/tree-sitter-properties",
-    files = { "src/parser.c" },
+    url = "https://github.com/tree-sitter-grammars/tree-sitter-properties",
+    files = { "src/parser.c", "src/scanner.c" },
   },
   filetype = "jproperties",
   maintainers = { "@ObserverOfTime" },
