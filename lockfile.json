@@ -624,7 +624,7 @@
     "revision": "857077f9e6bb04df0f769c18d32bfe036911adc8"
   },
   "sourcepawn": {
-    "revision": "39ce73ad42b2c4f52848d16093c24feddaa7d226"
+    "revision": "b1ae9e3c4a41ebf666582da24fcce316f38a0613"
   },
   "sparql": {
     "revision": "05f949d3c1c15e3261473a244d3ce87777374dec"
@@ -756,10 +756,10 @@
     "revision": "bc1364d922952138957a62105171ed68e73fbb6c"
   },
   "vimdoc": {
-    "revision": "b63be26fa571259b512e1939f01755d9d6e78fbd"
+    "revision": "016ad75faa854e4e13bc40c517015183b795eed9"
   },
   "vue": {
-    "revision": "7e48557b903a9db9c38cea3b7839ef7e1f36c693"
+    "revision": "085e99bcc46b2e63ff06a830a31a55132ce95aa5"
   },
   "wgsl": {
     "revision": "40259f3c77ea856841a4e0c4c807705f3e4a2b65"
