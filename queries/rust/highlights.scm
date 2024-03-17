@@ -256,7 +256,6 @@
   "impl"
   "let"
   "move"
-  "pub"
   "struct"
   "trait"
   "type"
@@ -274,21 +273,23 @@
 
 [
   "ref"
+  "pub"
   (mutable_specifier)
-] @type.qualifier
-
-[
   "const"
   "static"
   "dyn"
   "extern"
-] @keyword.storage
+] @keyword.modifier
 
 (lifetime
-  [
-    "'"
-    (identifier)
-  ] @keyword.storage)
+  "'" @keyword.modifier)
+
+(lifetime
+  (identifier) @attribute)
+
+(lifetime
+  (identifier) @attribute.builtin
+  (#any-of? @attribute.builtin "static" "_"))
 
 "fn" @keyword.function
 

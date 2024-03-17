@@ -79,12 +79,12 @@
   (kStrict)
   (kRequired)
   (kOptional)
-] @type.qualifier
+] @keyword.modifier
 
 [
   (kPacked)
   (kAbsolute)
-] @keyword.storage
+] @keyword.modifier
 
 (kUses) @keyword.import
 

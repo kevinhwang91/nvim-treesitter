@@ -86,13 +86,13 @@
 [
   "before"
   "after"
-] @keyword.storage
+] @keyword.modifier
 
 [
   "append"
   "prepend"
   "remove"
-] @type.qualifier
+] @keyword.modifier
 
 ; Variables
 [

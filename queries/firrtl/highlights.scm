@@ -38,13 +38,13 @@
 ] @keyword
 
 ; Qualifiers
-(qualifier) @type.qualifier
+(qualifier) @keyword.modifier
 
 ; Storageclasses
 [
   "input"
   "output"
-] @keyword.storage
+] @keyword.modifier
 
 ; Conditionals
 [

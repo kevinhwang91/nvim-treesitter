@@ -13,13 +13,13 @@
 [
   (precision_qualifier)
   (interpolation_qualifier)
-] @type.qualifier
+] @keyword.modifier
 
 [
   "in"
   "out"
   "inout"
-] @keyword.storage
+] @keyword.modifier
 
 [
   "while"

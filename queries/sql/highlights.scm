@@ -95,7 +95,7 @@
   (keyword_jsonfile)
   (keyword_sequencefile)
   (keyword_volatile)
-] @keyword.storage
+] @keyword.modifier
 
 [
   (keyword_case)
@@ -333,7 +333,7 @@
   (keyword_statistics)
   (keyword_maxvalue)
   (keyword_minvalue)
-] @type.qualifier
+] @keyword.modifier
 
 [
   (keyword_int)

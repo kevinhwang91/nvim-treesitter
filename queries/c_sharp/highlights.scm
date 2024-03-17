@@ -439,7 +439,7 @@
   "static"
   "volatile"
   "required"
-] @keyword.storage
+] @keyword.modifier
 
 [
   "abstract"
@@ -450,7 +450,7 @@
   "partial"
   "sealed"
   "virtual"
-] @type.qualifier
+] @keyword.modifier
 
 (parameter_modifier) @operator
 

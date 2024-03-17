@@ -21,7 +21,7 @@
   "__covariant"
   "__contravariant"
   (visibility_specification)
-] @type.qualifier
+] @keyword.modifier
 
 ; Storageclasses
 [
@@ -30,7 +30,7 @@
   "@dynamic"
   "volatile"
   (protocol_qualifier)
-] @keyword.storage
+] @keyword.modifier
 
 ; Keywords
 [

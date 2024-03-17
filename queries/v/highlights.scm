@@ -54,12 +54,12 @@
   "shared"
   "static"
   "const"
-] @keyword.storage
+] @keyword.modifier
 
 [
   "pub"
   "mut"
-] @type.qualifier
+] @keyword.modifier
 
 [
   "go"
