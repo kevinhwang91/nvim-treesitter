@@ -26,9 +26,8 @@
 
 ((assignment
   left: (identifier) @type.definition
-  right:
-    (call
-      function: (identifier) @_func))
+  right: (call
+    function: (identifier) @_func))
   (#any-of? @_func "TypeVar" "NewType"))
 
 ; Function calls
@@ -36,18 +35,16 @@
   function: (identifier) @function.call)
 
 (call
-  function:
-    (attribute
-      attribute: (identifier) @function.method.call))
+  function: (attribute
+    attribute: (identifier) @function.method.call))
 
 ((call
   function: (identifier) @constructor)
   (#lua-match? @constructor "^%u"))
 
 ((call
-  function:
-    (attribute
-      attribute: (identifier) @constructor))
+  function: (attribute
+    attribute: (identifier) @constructor))
   (#lua-match? @constructor "^%u"))
 
 ; Decorators
@@ -100,10 +97,9 @@
 
 ((call
   function: (identifier) @_isinstance
-  arguments:
-    (argument_list
-      (_)
-      (identifier) @type))
+  arguments: (argument_list
+    (_)
+    (identifier) @type))
   (#eq? @_isinstance "isinstance"))
 
 ; Normal parameters
@@ -202,18 +198,16 @@
     (string) @string.documentation @spell))
 
 (class_definition
-  body:
-    (block
-      .
-      (expression_statement
-        (string) @string.documentation @spell)))
+  body: (block
+    .
+    (expression_statement
+      (string) @string.documentation @spell)))
 
 (function_definition
-  body:
-    (block
-      .
-      (expression_statement
-        (string) @string.documentation @spell)))
+  body: (block
+    .
+    (expression_statement
+      (string) @string.documentation @spell)))
 
 ; Tokens
 [
@@ -369,32 +363,27 @@
   name: (identifier) @type)
 
 (class_definition
-  body:
-    (block
-      (function_definition
-        name: (identifier) @function.method)))
+  body: (block
+    (function_definition
+      name: (identifier) @function.method)))
 
 (class_definition
-  superclasses:
-    (argument_list
-      (identifier) @type))
+  superclasses: (argument_list
+    (identifier) @type))
 
 ((class_definition
-  body:
-    (block
-      (expression_statement
-        (assignment
-          left: (identifier) @variable.member))))
+  body: (block
+    (expression_statement
+      (assignment
+        left: (identifier) @variable.member))))
   (#lua-match? @variable.member "^[%l_].*$"))
 
 ((class_definition
-  body:
-    (block
-      (expression_statement
-        (assignment
-          left:
-            (_
-              (identifier) @variable.member)))))
+  body: (block
+    (expression_statement
+      (assignment
+        left: (_
+          (identifier) @variable.member)))))
   (#lua-match? @variable.member "^[%l_].*$"))
 
 ((class_definition
@@ -425,12 +414,10 @@
 
 ; Regex from the `re` module
 (call
-  function:
-    (attribute
-      object: (identifier) @_re)
-  arguments:
-    (argument_list
-      .
-      (string
-        (string_content) @string.regexp))
+  function: (attribute
+    object: (identifier) @_re)
+  arguments: (argument_list
+    .
+    (string
+      (string_content) @string.regexp))
   (#eq? @_re "re"))
