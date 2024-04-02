@@ -39,7 +39,7 @@ More examples can be found in [our gallery](https://github.com/nvim-treesitter/n
 **Warning: Treesitter and nvim-treesitter highlighting are an experimental feature of Neovim.
 Please consider the experience with this plug-in as experimental until Tree-Sitter support in Neovim is stable!
 We recommend using the nightly builds of Neovim if possible.
-You can find the current roadmap [here](https://github.com/nvim-treesitter/nvim-treesitter/projects/1).
+You can find the current roadmap [here](https://github.com/nvim-treesitter/nvim-treesitter/issues/4767).
 The roadmap and all features of this plugin are open to change, and any suggestion will be highly appreciated!**
 
 Nvim-treesitter is based on three interlocking features: [**language parsers**](#language-parsers), [**queries**](#adding-queries), and [**modules**](#available-modules), where _modules_ provide features – e.g., highlighting – based on _queries_ for syntax objects extracted from a given buffer by _language parsers_.
@@ -370,6 +370,7 @@ We are looking for maintainers to add more parsers and to write query files for 
 - [x] [pip requirements](https://github.com/ObserverOfTime/tree-sitter-requirements) (maintained by @ObserverOfTime)
 - [x] [rnoweb](https://github.com/bamonroe/tree-sitter-rnoweb) (maintained by @bamonroe)
 - [x] [robot](https://github.com/Hubro/tree-sitter-robot) (maintained by @Hubro)
+- [x] [roc](https://github.com/nat-418/tree-sitter-roc) (maintained by @nat-418)
 - [x] [ron](https://github.com/amaanq/tree-sitter-ron) (maintained by @amaanq)
 - [x] [rst](https://github.com/stsewd/tree-sitter-rst) (maintained by @stsewd)
 - [x] [ruby](https://github.com/tree-sitter/tree-sitter-ruby) (maintained by @TravonteD)
