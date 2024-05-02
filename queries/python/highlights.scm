@@ -179,7 +179,7 @@
 
 ((module
   .
-  (comment) @keyword.directive)
+  (comment) @keyword.directive @nospell)
   (#lua-match? @keyword.directive "^#!/"))
 
 (string) @string
@@ -291,7 +291,6 @@
 
 [
   "assert"
-  "class"
   "exec"
   "global"
   "nonlocal"
@@ -299,8 +298,12 @@
   "print"
   "with"
   "as"
-  "type"
 ] @keyword
+
+[
+  "type"
+  "class"
+] @keyword.type
 
 [
   "async"
