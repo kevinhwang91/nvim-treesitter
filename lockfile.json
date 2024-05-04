@@ -320,6 +320,9 @@
   "ini": {
     "revision": "bcb84a2d4bcd6f55b911c42deade75c8f90cb0c5"
   },
+  "inko": {
+    "revision": "6983354c13a14bc621d7a3619f1790149e901187"
+  },
   "ispc": {
     "revision": "9b2f9aec2106b94b4e099fe75e73ebd8ae707c04"
   },
@@ -330,7 +333,7 @@
     "revision": "953abfc8bb3eb2f578e1f461edba4a9885f974b8"
   },
   "javascript": {
-    "revision": "fff4560044bdc51d9f6995f1edc797b7cd72b9dc"
+    "revision": "c0027460e8f9629afeeb27f7949ecf961c82d707"
   },
   "jq": {
     "revision": "13990f530e8e6709b7978503da9bc8701d366791"
@@ -354,7 +357,7 @@
     "revision": "acd5ca12cc278df7960629c2429a096c7ac4bbea"
   },
   "just": {
-    "revision": "72937dde3be430468796d4b91c0f0f104962b132"
+    "revision": "fd814fc6c579f68c2a642f5e0268cf69daae92d7"
   },
   "kconfig": {
     "revision": "486fea71f61ad9f3fd4072a118402e97fe88d26c"
@@ -432,13 +435,13 @@
     "revision": "bd17c824196ce70800f64ad39cfddd1b17acc13f"
   },
   "mlir": {
-    "revision": "d04201a28c9f93656634ca1c1d6ba775149522a0"
+    "revision": "ed528701a1ee52d4735c3439da262c898e506fc3"
   },
   "muttrc": {
     "revision": "90ef60852c410bd964cd3b954366e4c403c17314"
   },
   "nasm": {
-    "revision": "3bc691d2cfba44bea339a775ad496c8bc552c60d"
+    "revision": "570f3d7be01fffc751237f4cfcf52d04e20532d1"
   },
   "nickel": {
     "revision": "58baf89db8fdae54a84bcf22c80ff10ee3f929ed"
@@ -630,7 +633,7 @@
     "revision": "68587530d86aaeb1f1cb17fdada795281cdd0556"
   },
   "slint": {
-    "revision": "d5fbeaf0c26683f1417d00b6a5ab1cca445031f2"
+    "revision": "0701312b74b87fe20e61aa662ba41c5815b5d428"
   },
   "smali": {
     "revision": "3f6517855898ef23023e5d64a8b175d4ee8d646e"
@@ -698,6 +701,9 @@
   "tablegen": {
     "revision": "6b7eb096621443627cc5e29c8c34ff1fde482cf3"
   },
+  "tact": {
+    "revision": "83d5de4c0566ce4415c30cd4633e4ebb09a1d6b8"
+  },
   "tcl": {
     "revision": "8784024358c233efd0f3a6fd9e7a3c5852e628bc"
   },
@@ -705,7 +711,7 @@
     "revision": "33482c92a0dfa694491d34e167a1d2f52b0dccb1"
   },
   "templ": {
-    "revision": "85a0bb071e9d7405915220bcca82d0b62c39167b"
+    "revision": "c06e7bf0edfa211f6a7665a3c7fa25c1198850b2"
   },
   "terraform": {
     "revision": "e936d3fef8bac884661472dce71ad82284761eb1"
@@ -729,7 +735,7 @@
     "revision": "3937c5cd105ec4127448651a21aef45f52d19609"
   },
   "toml": {
-    "revision": "8bd2056818b21860e3d756b5a58c4f6e05fb744e"
+    "revision": "221526cb106e4f0e26d715922e573c2903ecc72a"
   },
   "tsv": {
     "revision": "7eb7297823605392d2bbcc4c09b1cd18d6fa9529"

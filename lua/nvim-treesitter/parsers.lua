@@ -966,6 +966,14 @@ list.ini = {
   experimental = true,
 }
 
+list.inko = {
+  install_info = {
+    url = "https://github.com/inko-lang/tree-sitter-inko",
+    files = { "src/parser.c" },
+  },
+  maintainers = { "@yorickpeterse" },
+}
+
 list.ispc = {
   install_info = {
     url = "https://github.com/fab4100/tree-sitter-ispc",
@@ -2033,6 +2041,14 @@ list.tablegen = {
   maintainers = { "@amaanq" },
 }
 
+list.tact = {
+  install_info = {
+    url = "https://github.com/tact-lang/tree-sitter-tact",
+    files = { "src/parser.c" },
+  },
+  maintainers = { "@novusnota" },
+}
+
 list.teal = {
   install_info = {
     url = "https://github.com/euclidianAce/tree-sitter-teal",
@@ -2112,7 +2128,7 @@ list.todotxt = {
 
 list.toml = {
   install_info = {
-    url = "https://github.com/ikatyang/tree-sitter-toml",
+    url = "https://github.com/tree-sitter-grammars/tree-sitter-toml",
     files = { "src/parser.c", "src/scanner.c" },
     generate_requires_npm = true,
   },
