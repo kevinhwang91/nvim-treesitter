@@ -306,19 +306,9 @@
 [
   "import"
   "from"
+  "as"
+  "export"
 ] @keyword.import
-
-(export_specifier
-  "as" @keyword.import)
-
-(import_specifier
-  "as" @keyword.import)
-
-(namespace_export
-  "as" @keyword.import)
-
-(namespace_import
-  "as" @keyword.import)
 
 [
   "for"
@@ -332,7 +322,6 @@
   "break"
   "const"
   "debugger"
-  "export"
   "extends"
   "get"
   "let"
