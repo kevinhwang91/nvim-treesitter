@@ -162,7 +162,7 @@
     "revision": "38d5004a797298dc42c85e7706c5ceac46a3f29f"
   },
   "erlang": {
-    "revision": "54cecce7454bab1e1c92d6fdeeb2e34625684397"
+    "revision": "da275db3ae46bbd00f97d11f888d8c58c14faa6d"
   },
   "facility": {
     "revision": "a52579670e2b14ec03d410c3c980fafaf6d659c4"
@@ -216,7 +216,7 @@
     "revision": "41940e199ba5763abea1d21b4f717014b45f01ea"
   },
   "gitcommit": {
-    "revision": "edd817e0532f179b7f7f371dc180629070945f0c"
+    "revision": "821994a8029b0e271171da4331b8cfc0294d08ed"
   },
   "gitignore": {
     "revision": "f4685bf11ac466dd278449bcfe5fd014e94aa504"
@@ -315,7 +315,7 @@
     "revision": "ad705af8c44c737bdb965fc081329c50716d2d03"
   },
   "hyprlang": {
-    "revision": "c9012d6dcaaa939f17c21e1fdb17b013d139e6b9"
+    "revision": "6858695eba0e63b9e0fceef081d291eb352abce8"
   },
   "idl": {
     "revision": "6aa57adb5f6d14ea768d5d1b3d8a3fae11e6b97f"
@@ -330,7 +330,7 @@
     "revision": "9b2f9aec2106b94b4e099fe75e73ebd8ae707c04"
   },
   "janet_simple": {
-    "revision": "74f054bfe916a8f5fd5e5f90bda5549000eaaa56"
+    "revision": "3b08641373cb3e37bc531e6e3cdb85d02b454702"
   },
   "java": {
     "revision": "953abfc8bb3eb2f578e1f461edba4a9885f974b8"
@@ -414,7 +414,7 @@
     "revision": "fbadc96272f718dba267628ba7b0e694c368cef3"
   },
   "m68k": {
-    "revision": "d097b123f19c6eaba2bf181c05420d88b9fc489d"
+    "revision": "9e082a2253c50eb3d80e84bbd635e57cfb1476a2"
   },
   "make": {
     "revision": "a4b9187417d6be349ee5fd4b6e77b4172c6827dd"
@@ -573,7 +573,7 @@
     "revision": "f767fb0ac5e711b6d44c5e0c8d1f349687a86ce0"
   },
   "r": {
-    "revision": "391400572538ff9854341a175ed8ab4b1e45f44b"
+    "revision": "b1e211f52ad8f8e1e182bbbcc16dcd5e3688eb7d"
   },
   "racket": {
     "revision": "171f52a8c0ed635b85cd42d1e36d82f1066a03b4"
@@ -663,7 +663,7 @@
     "revision": "645d093763bcaaf7535edbdf6575a5c978b16491"
   },
   "sparql": {
-    "revision": "05f949d3c1c15e3261473a244d3ce87777374dec"
+    "revision": "d853661ca680d8ff7f8d800182d5782b61d0dd58"
   },
   "sql": {
     "revision": "89fd00d0aff3bc9985ac37caf362ec4fd9b2ba1d"

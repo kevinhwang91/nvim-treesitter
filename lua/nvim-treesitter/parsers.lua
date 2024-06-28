@@ -528,7 +528,7 @@ list.embedded_template = {
 list.erlang = {
   install_info = {
     url = "https://github.com/WhatsApp/tree-sitter-erlang",
-    files = { "src/parser.c" },
+    files = { "src/parser.c", "src/scanner.c" },
   },
   maintainers = { "@filmor" },
 }
@@ -1688,7 +1688,6 @@ list.r = {
     url = "https://github.com/r-lib/tree-sitter-r",
     files = { "src/parser.c", "src/scanner.c" },
   },
-  maintainers = { "@echasnovski" },
 }
 
 list.racket = {
