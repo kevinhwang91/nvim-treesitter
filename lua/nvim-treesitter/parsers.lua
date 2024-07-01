@@ -1689,6 +1689,7 @@ list.r = {
     url = "https://github.com/r-lib/tree-sitter-r",
     files = { "src/parser.c", "src/scanner.c" },
   },
+  maintainers = { "@ribru17" },
 }
 
 list.racket = {
@@ -1777,6 +1778,14 @@ list.robot = {
     files = { "src/parser.c" },
   },
   maintainers = { "@Hubro" },
+}
+
+list.robots = {
+  install_info = {
+    url = "https://github.com/opa-oz/tree-sitter-robots-txt",
+    files = { "src/parser.c", "src/scanner.c" },
+  },
+  maintainers = { "@opa-oz" },
 }
 
 list.roc = {
