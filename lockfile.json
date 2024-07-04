@@ -318,7 +318,7 @@
     "revision": "6858695eba0e63b9e0fceef081d291eb352abce8"
   },
   "idl": {
-    "revision": "966797b8c581526efdd2252f815dde6de1a8f932"
+    "revision": "dd5ce556451e51d6f67a8f53f103193e39ee49aa"
   },
   "ini": {
     "revision": "87176e524f0a98f5be75fa44f4f0ff5c6eac069c"
@@ -591,7 +591,7 @@
     "revision": "6c9bbcfdf5f0f553d9ebc01750a3aa247a37b8aa"
   },
   "rbs": {
-    "revision": "88d8ed487b5449ddda2fc0c4fe23b71cba29ca24"
+    "revision": "8d8e65ac3f77fbc9e15b1cdb9f980a3e0ac3ab99"
   },
   "re2c": {
     "revision": "47aa19cf5f7aba2ed30e2b377f7172df76e819a6"
@@ -762,7 +762,7 @@
     "revision": "4f3eb6655a1cd1a1f87ef10201f8e22886dcd76e"
   },
   "turtle": {
-    "revision": "085437f5cb117703b7f520dd92161140a684f092"
+    "revision": "7f789ea7ef765080f71a298fc96b7c957fa24422"
   },
   "twig": {
     "revision": "085648e01d1422163a1702a44e72303b4e2a0bd1"
@@ -795,7 +795,7 @@
     "revision": "ad9b638b914095320de85d59c49ab271603af048"
   },
   "v": {
-    "revision": "e91f8a42de7842f24f4ce600754f2b6651985fd4"
+    "revision": "7f80a0441ff2ca6aa8ced8e1ee87cead9dd26515"
   },
   "vala": {
     "revision": "8f690bfa639f2b83d1fb938ed3dd98a7ba453e8b"

@@ -1567,7 +1567,7 @@ list.prisma = {
 
 list.problog = {
   install_info = {
-    url = "https://codeberg.org/foxy/tree-sitter-prolog",
+    url = "https://github.com/foxyseta/tree-sitter-prolog",
     files = { "src/parser.c" },
     location = "grammars/problog",
   },
@@ -1576,7 +1576,7 @@ list.problog = {
 
 list.prolog = {
   install_info = {
-    url = "https://codeberg.org/foxy/tree-sitter-prolog",
+    url = "https://github.com/foxyseta/tree-sitter-prolog",
     files = { "src/parser.c" },
     location = "grammars/prolog",
   },
@@ -1959,10 +1959,10 @@ list.sourcepawn = {
 
 list.sparql = {
   install_info = {
-    url = "https://github.com/BonaBeavis/tree-sitter-sparql",
+    url = "https://github.com/GordianDziwis/tree-sitter-sparql",
     files = { "src/parser.c" },
   },
-  maintainers = { "@BonaBeavis" },
+  maintainers = { "@GordianDziwis" },
 }
 
 list.sql = {
@@ -2207,10 +2207,10 @@ list.tsx = {
 
 list.turtle = {
   install_info = {
-    url = "https://github.com/BonaBeavis/tree-sitter-turtle",
+    url = "https://github.com/GordianDziwis/tree-sitter-turtle",
     files = { "src/parser.c" },
   },
-  maintainers = { "@BonaBeavis" },
+  maintainers = { "@GordianDziwis" },
 }
 
 list.twig = {
