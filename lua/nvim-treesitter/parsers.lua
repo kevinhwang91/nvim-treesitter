@@ -6,6 +6,7 @@ for ft, lang in pairs {
   javascriptreact = "javascript",
   ecma = "javascript",
   jsx = "javascript",
+  gyp = "python",
   html_tags = "html",
   ["typescript.tsx"] = "tsx",
   ["terraform-vars"] = "terraform",
@@ -1327,6 +1328,14 @@ list.nasm = {
     files = { "src/parser.c" },
   },
   maintainers = { "@ObserverOfTime" },
+}
+
+list.nginx = {
+  install_info = {
+    url = "https://github.com/opa-oz/tree-sitter-nginx",
+    files = { "src/parser.c", "src/scanner.c" },
+  },
+  maintainers = { "@opa-oz" },
 }
 
 list.nickel = {
