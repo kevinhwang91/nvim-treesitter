@@ -33,6 +33,8 @@ for ft, lang in pairs {
   py = "python",
   erl = "erlang",
   typ = "typst",
+  pl = "perl",
+  uxn = "uxntal",
 } do
   ts.language.register(lang, ft)
 end
@@ -2343,6 +2345,14 @@ list.verilog = {
     files = { "src/parser.c" },
   },
   maintainers = { "@zegervdv" },
+}
+
+list.vhdl = {
+  install_info = {
+    url = "https://github.com/jpt13653903/tree-sitter-vhdl",
+    files = { "src/parser.c", "src/scanner.c" },
+  },
+  maintainers = { "@jpt13653903" },
 }
 
 list.vhs = {
