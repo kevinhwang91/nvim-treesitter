@@ -234,6 +234,10 @@
   "uses"
 ] @keyword.import
 
+(import_declaration
+  (asterisk
+    "*" @character.special))
+
 ; Punctuation
 [
   ";"

@@ -124,11 +124,6 @@
 (new_expression
   constructor: (identifier) @constructor)
 
-; Variables
-;----------
-(namespace_import
-  (identifier) @module)
-
 ; Decorators
 ;----------
 (decorator
@@ -293,6 +288,19 @@
     "${"
     "}"
   ] @punctuation.special) @none
+
+; Imports
+;----------
+(namespace_import
+  "*" @character.special
+  (identifier) @module)
+
+(namespace_export
+  "*" @character.special
+  (identifier) @module)
+
+(export_statement
+  "*" @character.special)
 
 ; Keywords
 ;----------

@@ -311,6 +311,9 @@
 (aliased_import
   "as" @keyword.import)
 
+(wildcard_import
+  "*" @character.special)
+
 [
   "if"
   "elif"
