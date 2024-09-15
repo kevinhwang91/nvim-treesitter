@@ -148,8 +148,6 @@
   (identifier) @label)
 
 ; Constants
-(vararg_expression) @constant
-
 (nil) @constant.builtin
 
 [
