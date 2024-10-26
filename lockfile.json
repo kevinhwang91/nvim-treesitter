@@ -107,6 +107,9 @@
   "dart": {
     "revision": "9ac03bb2154316624fb4c41fe0f372a5f1597b43"
   },
+  "desktop": {
+    "revision": "0d8b8cf7c9311fe3f1730df8e193d836f6dd9d1b"
+  },
   "devicetree": {
     "revision": "16c9cb959675bc9bc4f4e5bebe473d511a12a06d"
   },
@@ -396,7 +399,7 @@
     "revision": "76f53c48d29e8588934fb55b0240d7bdfe00bfe5"
   },
   "koto": {
-    "revision": "adf8fabfffc13a51a105be38c9776744291c9eeb"
+    "revision": "9e5ab09710b9f035efdcef1eecaadbf261af7ec3"
   },
   "kusto": {
     "revision": "8353a1296607d6ba33db7c7e312226e5fc83e8ce"
@@ -732,7 +735,7 @@
     "revision": "1a8ee0da9a4f2df5a8a22f4d637ac863623a78a7"
   },
   "superhtml": {
-    "revision": "3325bbb2dda260131a8db0cae1f1f557d17ebced"
+    "revision": "e561df3b5ce94e598a4c3d0ee4abd9635bad63b3"
   },
   "surface": {
     "revision": "f4586b35ac8548667a9aaa4eae44456c1f43d032"
@@ -750,7 +753,7 @@
     "revision": "f2b378a9af0b7e1192cff67a5fb45508c927205d"
   },
   "t32": {
-    "revision": "0f6a5b1e031c97ebf58d3c76eadb2c6bf1e4f780"
+    "revision": "e455373021812abf4a0b5170caa0d882a9578bab"
   },
   "tablegen": {
     "revision": "b1170880c61355aaf38fc06f4af7d3c55abdabc4"
