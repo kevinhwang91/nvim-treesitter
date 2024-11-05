@@ -288,6 +288,7 @@ list.cooklang = {
     files = { "src/parser.c", "src/scanner.c" },
   },
   maintainers = { "@addcninblue" },
+  filetype = "cook",
 }
 
 list.corn = {
@@ -2161,6 +2162,14 @@ list.svelte = {
     files = { "src/parser.c", "src/scanner.c" },
   },
   maintainers = { "@amaanq" },
+}
+
+list.sway = {
+  install_info = {
+    url = "https://github.com/FuelLabs/tree-sitter-sway.git",
+    files = { "src/parser.c", "src/scanner.c" },
+  },
+  maintainers = { "@ribru17" },
 }
 
 list.swift = {
