@@ -34,7 +34,9 @@
   (#any-of? @_pipe "|>" ".|>"))
 
 ; Macros
-(macro_identifier) @function.macro
+(macro_identifier
+  "@" @function.macro
+  (identifier) @function.macro)
 
 (macro_definition
   (signature
@@ -328,6 +330,8 @@
     (macro_definition)
     (module_definition)
     (struct_definition)
+    (call_expression)
+    (identifier)
   ])
 
 [
