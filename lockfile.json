@@ -207,7 +207,7 @@
     "revision": "fad2e175099a45efbc98f000cc196d3674cc45e0"
   },
   "fsharp": {
-    "revision": "971da5ff0266bfe4a6ecfb94616548032d6d1ba0"
+    "revision": "207f1c988f4649e12fe207e4a7e4f83b9da037d1"
   },
   "func": {
     "revision": "f780ca55e65e7d7360d0229331763e16c452fc98"
@@ -222,7 +222,7 @@
     "revision": "69086d7627c03e1f4baf766bcef14c60d9e92331"
   },
   "gdscript": {
-    "revision": "bf39f1b38a234d79940fd8866abb0b132ab51b1e"
+    "revision": "75ce61d196717b8c183fa6066676540c81e24dca"
   },
   "gdshader": {
     "revision": "ffd9f958df13cae04593781d7d2562295a872455"
@@ -762,7 +762,7 @@
     "revision": "395006713db3bbb90d267ebdfcbf1881b399b05c"
   },
   "swift": {
-    "revision": "7ca0504e6d1a3e1e2f5fa725dafecf5e5bd2b202"
+    "revision": "742723056556ec80ca4da09a6411fff86b330911"
   },
   "sxhkdrc": {
     "revision": "440d5f913d9465c9c776a1bd92334d32febcf065"
