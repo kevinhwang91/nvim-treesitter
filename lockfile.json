@@ -174,7 +174,7 @@
     "revision": "8495d106154741e6d35d37064f864758ece75de6"
   },
   "erlang": {
-    "revision": "cd1679d6e0ab03159001a39dc599523ed4fc5971"
+    "revision": "54d95b5e7750140c42ec2c8fda4d67fe11a045c3"
   },
   "facility": {
     "revision": "e4bfd3e960de9f4b4648acb1c92e9b95b47d8cfb"
@@ -207,7 +207,7 @@
     "revision": "fad2e175099a45efbc98f000cc196d3674cc45e0"
   },
   "fsharp": {
-    "revision": "207f1c988f4649e12fe207e4a7e4f83b9da037d1"
+    "revision": "ad824dea984734406b50699c5f388a7412e85946"
   },
   "func": {
     "revision": "f780ca55e65e7d7360d0229331763e16c452fc98"
@@ -510,7 +510,7 @@
     "revision": "14e6da1627aaef21d2b2aa0c37d04269766dcc1d"
   },
   "nu": {
-    "revision": "b51db01e154fac33eda5b289a6c7751c09568f6d"
+    "revision": "d0b26e45525016ef8e6f2ced05852437c06a00ca"
   },
   "objc": {
     "revision": "181a81b8f23a2d593e7ab4259981f50122909fda"
