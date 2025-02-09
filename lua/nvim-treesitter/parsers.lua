@@ -549,6 +549,14 @@ list.embedded_template = {
   filetype = "eruby",
 }
 
+list.enforce = {
+  install_info = {
+    url = "https://github.com/simonvic/tree-sitter-enforce",
+    files = { "src/parser.c" },
+  },
+  maintainers = { "@simonvic" },
+}
+
 list.erlang = {
   install_info = {
     url = "https://github.com/WhatsApp/tree-sitter-erlang",
@@ -1117,6 +1125,24 @@ list.javascript = {
     files = { "src/parser.c", "src/scanner.c" },
   },
   maintainers = { "@steelsojka" },
+}
+
+list.jinja = {
+  install_info = {
+    url = "https://github.com/cathaysia/tree-sitter-jinja",
+    location = "tree-sitter-jinja",
+    files = { "src/parser.c", "src/scanner.c" },
+  },
+  maintainers = { "@cathaysia" },
+}
+
+list.jinja_inline = {
+  install_info = {
+    url = "https://github.com/cathaysia/tree-sitter-jinja",
+    location = "tree-sitter-jinja_inline",
+    files = { "src/parser.c", "src/scanner.c" },
+  },
+  maintainers = { "@cathaysia" },
 }
 
 list.jq = {
@@ -1865,6 +1891,7 @@ list.razor = {
   install_info = {
     url = "https://github.com/tris203/tree-sitter-razor",
     files = { "src/parser.c", "src/scanner.c" },
+    generate_requires_npm = true,
   },
   maintainers = { "@tris203" },
 }
