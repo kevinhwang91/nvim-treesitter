@@ -26,48 +26,6 @@
     function: (identifier) @_func))
   (#any-of? @_func "TypeVar" "NewType"))
 
-; Function calls
-(call
-  function: (identifier) @function.call)
-
-(call
-  function: (attribute
-    attribute: (identifier) @function.method.call))
-
-((call
-  function: (identifier) @constructor)
-  (#lua-match? @constructor "^%u"))
-
-((call
-  function: (attribute
-    attribute: (identifier) @constructor))
-  (#lua-match? @constructor "^%u"))
-
-; Decorators
-((decorator
-  "@" @attribute)
-  (#set! priority 101))
-
-(decorator
-  (identifier) @attribute)
-
-(decorator
-  (attribute
-    attribute: (identifier) @attribute))
-
-(decorator
-  (call
-    (identifier) @attribute))
-
-(decorator
-  (call
-    (attribute
-      attribute: (identifier) @attribute)))
-
-((decorator
-  (identifier) @attribute.builtin)
-  (#any-of? @attribute.builtin "classmethod" "property" "staticmethod"))
-
 ; Builtin functions
 ((call
   function: (identifier) @function.builtin)
@@ -441,6 +399,23 @@
       name: (identifier) @constructor)))
   (#any-of? @constructor "__new__" "__init__"))
 
+; Function calls
+(call
+  function: (identifier) @function.call)
+
+(call
+  function: (attribute
+    attribute: (identifier) @function.method.call))
+
+((call
+  function: (identifier) @constructor)
+  (#lua-match? @constructor "^%u"))
+
+((call
+  function: (attribute
+    attribute: (identifier) @constructor))
+  (#lua-match? @constructor "^%u"))
+
 ; Regex from the `re` module
 (call
   function: (attribute
@@ -450,3 +425,28 @@
     (string
       (string_content) @string.regexp))
   (#eq? @_re "re"))
+
+; Decorators
+((decorator
+  "@" @attribute)
+  (#set! priority 101))
+
+(decorator
+  (identifier) @attribute)
+
+(decorator
+  (attribute
+    attribute: (identifier) @attribute))
+
+(decorator
+  (call
+    (identifier) @attribute))
+
+(decorator
+  (call
+    (attribute
+      attribute: (identifier) @attribute)))
+
+((decorator
+  (identifier) @attribute.builtin)
+  (#any-of? @attribute.builtin "classmethod" "property" "staticmethod"))
