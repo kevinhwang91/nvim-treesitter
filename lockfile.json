@@ -6,7 +6,7 @@
     "revision": "b9b32fa042c2952a7bfca86847ea325e44ccc897"
   },
   "angular": {
-    "revision": "cba288924f4832abb619c627539f111004ff22e5"
+    "revision": "be53f2597dded40c90b5f53ed9f4521422f6b6b3"
   },
   "apex": {
     "revision": "3597575a429766dd7ecce9f5bb97f6fec4419d5d"
@@ -58,6 +58,9 @@
   },
   "c_sharp": {
     "revision": "b5eb5742f6a7e9438bee22ce8026d6b927be2cd7"
+  },
+  "caddy": {
+    "revision": "2686186edb61be47960431c93a204fb249681360"
   },
   "cairo": {
     "revision": "6238f609bea233040fe927858156dee5515a0745"
@@ -330,7 +333,7 @@
     "revision": "02fa3b79b3ff9a296066da6277adfc3f26cbc9e0"
   },
   "hlsl": {
-    "revision": "b309425a7ab4456605cfe78774b80f7e275ca87d"
+    "revision": "bab9111922d53d43668fabb61869bec51bbcb915"
   },
   "hlsplaylist": {
     "revision": "3bfda9271e3adb08d35f47a2102fe957009e1c55"
@@ -380,6 +383,9 @@
   "java": {
     "revision": "a7db5227ec40fcfe94489559d8c9bc7c8181e25a"
   },
+  "javadoc": {
+    "revision": "db9589e9c61cff7d7fcc207744c711b10b60a7a3"
+  },
   "javascript": {
     "revision": "6fbef40512dcd9f0a61ce03a4c9ae7597b36ab5c"
   },
@@ -426,7 +432,7 @@
     "revision": "c4ddea359a7ff4d92360b2efcd6cfce5dc25afe6"
   },
   "koto": {
-    "revision": "329b0e84ef6cc6950665de4accd0bdda1601a2f1"
+    "revision": "673511402dfef07b25cfa43991693b8442695fc7"
   },
   "kusto": {
     "revision": "8353a1296607d6ba33db7c7e312226e5fc83e8ce"
@@ -591,10 +597,10 @@
     "revision": "73f39a6d5401cfdcd143951e499336cf5ab2ffaa"
   },
   "problog": {
-    "revision": "986a50d27e1bbf4fabce7e650c26e1e0da5535fc"
+    "revision": "d8d415f6a1cf80ca138524bcc395810b176d40fa"
   },
   "prolog": {
-    "revision": "986a50d27e1bbf4fabce7e650c26e1e0da5535fc"
+    "revision": "d8d415f6a1cf80ca138524bcc395810b176d40fa"
   },
   "promql": {
     "revision": "77625d78eebc3ffc44d114a07b2f348dff3061b0"
@@ -702,7 +708,7 @@
     "revision": "e86119bdb4968b9799f6a014ca2401c178d54b5f"
   },
   "scala": {
-    "revision": "041dea1ca8b25f20fa564854922ac6a99c050ec6"
+    "revision": "42a1542248ff611ba2091fe76c6dbf42551ebef8"
   },
   "scfg": {
     "revision": "2f3709e7656fa2c443f92041c91a9f843f8cd625"
@@ -783,7 +789,7 @@
     "revision": "395006713db3bbb90d267ebdfcbf1881b399b05c"
   },
   "swift": {
-    "revision": "6b1ebb86c97fca00835e7fce4a95c5069172145e"
+    "revision": "aca5a52aa3cab858944d3c02701ccf5b2d8fd0f9"
   },
   "sxhkdrc": {
     "revision": "440d5f913d9465c9c776a1bd92334d32febcf065"

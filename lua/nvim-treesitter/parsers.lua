@@ -233,6 +233,14 @@ list.c_sharp = {
   maintainers = { "@amaanq" },
 }
 
+list.caddy = {
+  install_info = {
+    url = "https://github.com/opa-oz/tree-sitter-caddy",
+    files = { "src/parser.c", "src/scanner.c" },
+  },
+  maintainers = { "@opa-oz" },
+}
+
 list.cairo = {
   install_info = {
     url = "https://github.com/amaanq/tree-sitter-cairo",
@@ -1125,6 +1133,14 @@ list.java = {
     files = { "src/parser.c" },
   },
   maintainers = { "@p00f" },
+}
+
+list.javadoc = {
+  install_info = {
+    url = "https://github.com/rmuir/tree-sitter-javadoc",
+    files = { "src/parser.c", "src/scanner.c" },
+  },
+  maintainers = { "@rmuir" },
 }
 
 list.javascript = {
